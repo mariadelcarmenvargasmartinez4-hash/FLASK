@@ -6,11 +6,13 @@ Aplicación web desarrollada con Flask que permite buscar ubicaciones y mostrarl
 - Python 3
 - Flask
 - Requests
+  <img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/6ce00669-04d4-4ad0-92e3-0a0e651c19a1" />
+
 
 ## Ejecución
 ```bash
 python app.py
-<img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/80d0e281-3a09-4864-ae08-c8a4a27df4d1" />
+
 
 Luego:
 
