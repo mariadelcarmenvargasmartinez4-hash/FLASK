@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscar Lugar</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1>Buscar ubicación</h1>
+
+<form method="POST">
+    <input type="text" name="lugar" placeholder="Ej. Dolores Hidalgo Guanajuato" required>
+    <button type="submit">Buscar</button>
+</form>
+
+{% if error %}
+<p style="color:red;">{{ error }}</p>
+{% endif %}
+
+</body>
+</html>
